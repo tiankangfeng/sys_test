@@ -12,22 +12,22 @@ from tkinter import scrolledtext        # 导入滚动文本框的模块
 
 
 config_test = {
-    'host': '123.57.163.198',
+    'host': '',
     'port': 3306,
     'user': 'root',
-    'password': 'jinkun',
-    'database': 'miniprogram_locator',
+    'password': '',
+    'database': '',
     'charset': 'utf8mb4',
     'cursorclass': pymysql.cursors.Cursor,
 }
 
 
 config_dev = {
-    'host': '47.75.110.190',
+    'host': '',
     'port': 3306,
     'user': 'blvhop',
-    'password': 'jkkcjkkc',
-    'database': 'miniprogram_locator',
+    'password': '',
+    'database': '',
     'charset': 'utf8mb4',
     'cursorclass': pymysql.cursors.Cursor,
 }
@@ -229,4 +229,3 @@ t1 = scrolledtext.ScrolledText(window, width=120, height=30)
 t1.pack()
 
 window.mainloop()
-
