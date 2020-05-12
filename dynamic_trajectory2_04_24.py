@@ -13,9 +13,9 @@ from tkinter import scrolledtext        # 导入滚动文本框的模块
 
 config_test = {
     'host': '123.57.163.198',
-    'port': 3306,
-    'user': 'root',
-    'password': 'jinkun',
+    'port': ,
+    'user': '',
+    'password': '',
     'database': 'miniprogram_locator',
     'charset': 'utf8mb4',
     'cursorclass': pymysql.cursors.Cursor,
@@ -24,10 +24,10 @@ config_test = {
 
 config_dev = {
     'host': '47.75.110.190',
-    'port': 3306,
-    'user': 'blvhop',
-    'password': 'jkkcjkkc',
-    'database': 'miniprogram_locator',
+    'port': ,
+    'user': '',
+    'password': '',
+    'database': '',
     'charset': 'utf8mb4',
     'cursorclass': pymysql.cursors.Cursor,
 }
