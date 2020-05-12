@@ -12,11 +12,11 @@ import tkinter as tk
 
 
 config = {
-    'host': '123.57.163.198',
-    'port': 3306,
-    'user': 'root',
-    'password': 'jinkun',
-    'database': 'miniprogram_locator',
+    'host': '',
+    'port': ,
+    'user': '',
+    'password': '',
+    'database': '',
     'charset': 'utf8mb4',
     'cursorclass': pymysql.cursors.Cursor,
 }
