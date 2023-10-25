@@ -12,7 +12,7 @@ from tkinter import scrolledtext        # 导入滚动文本框的模块
 
 
 config_test = {
-    'host': '123.57.163.198',
+    'host': '',
     'port': ,
     'user': '',
     'password': '',
